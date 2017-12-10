@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include <scene.h>
+#include <graphicsscene.h>
+
 
 namespace Ui {
 class MainWindow;
@@ -19,6 +21,7 @@ public:
 private:
     Ui::MainWindow *ui;
     Scene* gScene;
+    GraphicsScene* GrapScene;
 
 
 };
